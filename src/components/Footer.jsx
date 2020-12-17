@@ -4,7 +4,7 @@ import { footerData } from '../Database'
 
 export default function Footer() {
   const items = footerData
-
+  
   return (
     <footer className='footer'>
       <div className='container-header-footer'>

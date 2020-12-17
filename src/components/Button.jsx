@@ -5,7 +5,7 @@ export default function Button({
   title,
   icon,
   type = 'mybtn1',
-  href = '#home',
+  href = '',
   bgcolor = '#4F9EE7',
   txcolor = 'white'
 }) {

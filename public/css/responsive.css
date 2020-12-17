@@ -1,9 +1,21 @@
+@media (max-width: 1400px) {
+  .home-section-1 .home-section-1-content h1 {
+    width: 660px;
+  }
+  .home-section-1 .home-section-1-img img {
+    width: 110%;
+    left: 50px;
+    top: -50px;
+  }
+}
+
 @media (max-width: 1199px) {
   .home-section-1 .home-section-1-img {
     text-align: center;
   }
   .home-section-1 .home-section-1-img img {
     position: relative;
+    width: 120%;
     left: auto;
     top: auto;
   }
@@ -64,6 +76,14 @@
 
   .home-section-1 .home-section-1-img {
     margin-bottom: 40px;
+  }
+
+  .home-section-1 .home-section-1-img img {
+    width: 100%;
+  }
+
+  .home-section-1 .home-section-1-content h1 {
+    width: 100%;
   }
 }
 

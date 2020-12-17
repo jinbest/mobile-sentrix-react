@@ -6,7 +6,7 @@ export default function Error() {
   return (
     <Section
       title='Error 404!'
-      subtitle='OOPS! THE PAGE YOU WERE LOOKING FOR DOESNT EXIST.'
+      subtitle='OOPS! THE PAGE YOU WERE LOOKING FOR DOES NOT EXIST.'
       style={{ paddingTop: '150px' }}
     >
       <div className='row text-white text-center justify-content-center'>

@@ -10,7 +10,7 @@ export default function Section1() {
           <div className='col-lg-6'>
             <div className='home-section-1-content'>
               <h1>Completely diagnose multiple devices in 15 seconds!</h1>
-              <Button title='Get Started'></Button>
+              <Button title='Get Started' href='account'></Button>
             </div>
           </div>
           <div className='col-lg-6 order-first order-lg-last'>

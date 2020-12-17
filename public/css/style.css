@@ -234,7 +234,7 @@ section {
 .home-section-1 {
   position: relative;
   z-index: 1;
-  background-image: url('../img/CellPhone.png');
+  background-image: url('../img/CellPhone-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -261,6 +261,7 @@ section {
   line-height: 70px;
   margin: 0;
   margin-bottom: 50px;
+  width: 780px;
 }
 
 .home-section-1 .home-section-1-content p {
@@ -281,7 +282,7 @@ section {
   width: 100%;
   position: absolute;
   left: 100px;
-  top: -50px;
+  top: -80px;
   animation: productani01 5s linear infinite;
 }
 

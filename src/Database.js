@@ -87,6 +87,22 @@ const navItemsData = [
   },
 ]
 
+const routers = [
+  'feature',
+  'pricing',
+  'certification',
+  'account',
+  'help-center',
+  'faq',
+  'payment-methods',
+  'terms-conditions',
+  'quality-standard',
+  'about',
+  'contact',
+  'trademark',
+  'sitemap',
+]
+
 const footerData = {
   left: [
     {
@@ -134,6 +150,8 @@ const footerData = {
   ]
 }
 
+
+
 const colorData = {
   red: '#C52C1D',
   grayDark: '#545252',
@@ -148,4 +166,5 @@ export {
   navItemsData,
   footerData,
   colorData,
+  routers,
 }
