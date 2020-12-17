@@ -1,0 +1,28 @@
+:root {
+  --theme:#000000;
+}
+
+.section-title .title::before,
+.home-section-1,
+.mybtn2,
+.header .navbar-light .navbar-toggler-icon,
+.header .navbar-light .navbar-toggler-icon::before,
+.header .navbar-light .navbar-toggler-icon::after 
+{
+  background-color: var(--theme);
+}
+
+.mybtn1,
+.mybtn1:hover,
+.section-title .title
+{
+  color: var(--theme);
+}
+
+.preloader .loader {
+  border-right: 5px solid var(--theme);
+}
+
+.header .navbar #collapsibleNavbar .nav-item .nav-link {
+  color: var(--theme);
+}

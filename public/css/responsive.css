@@ -1,0 +1,89 @@
+@media (max-width: 1199px) {
+  .home-section-1 .home-section-1-img {
+    text-align: center;
+  }
+  .home-section-1 .home-section-1-img img {
+    position: relative;
+    left: auto;
+    top: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .header {
+    padding: 5px 0;
+  }
+  .header .navbar-nav {
+    background-color: #ffffff;
+  }
+
+  .header .navbar #collapsibleNavbar .nav-item .nav-link {
+    padding: 10px 15px 10px;
+  }
+
+  .navbar-light .navbar-toggler {
+    background-color: #ffffff;
+    padding: 0;
+    height: 38px;
+    width: 45px;
+    border: none;
+  }
+
+  .navbar-light .navbar-toggler:focus {
+    outline: none;
+  }
+
+  .header .navbar-light .navbar-toggler-icon {
+    background-image: none;
+    height: 2px;
+    width: 24px;
+    position: relative;
+  }
+
+  .header .navbar-light .navbar-toggler-icon::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    top: -6px;
+  }
+
+  .header .navbar-light .navbar-toggler-icon::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    top: 6px;
+  }
+
+  .home-section-1 {
+    padding: 150px 0 150px;
+  }
+
+  .home-section-1 .home-section-1-img {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-section-1 .home-section-1-content h1 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+
+@media (max-width: 575px) {
+  .container1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container1 {
+    width: 90%;
+  }
+}
+
