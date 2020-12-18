@@ -1,4 +1,5 @@
 @import 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css';
-@import './style.css';
+@import './homepage.css';
 @import './responsive.css';
-@import './skins/index.css';
+@import './animation/index.css';
+@import './animation/mobile-scanning.css';

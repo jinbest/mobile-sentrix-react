@@ -4,7 +4,7 @@ import { Route, Switch } from 'react-router-dom'
 import { Footer, Header, Preloader } from './components/'
 import { Section1, Section2, Section3, Section4, Section5 } from './pages/home/'
 import { Error } from './pages/error'
-import { routers } from './Database'
+import { redirectRouters } from './Database'
 
 export default class App extends Component {
   render() {
@@ -23,7 +23,7 @@ export default class App extends Component {
               <Footer />
             </React.Fragment>
           </Route>
-          {routers.map((item, index) => {
+          {redirectRouters.map((item, index) => {
             return (
               <Route path={'/' + item} key={index}>
                 <Redirect to='error'/>

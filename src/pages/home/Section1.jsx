@@ -1,6 +1,6 @@
 import React from 'react'
-import showCaseImg from '../../img/cell-phone.png'
 import Button from '../../components/Button'
+import MobileScanning from '../../components/animators/MobileScanning'
 
 export default function Section1() {
   return (
@@ -14,9 +14,7 @@ export default function Section1() {
             </div>
           </div>
           <div className='col-lg-6 order-first order-lg-last'>
-            <div className='home-section-1-img'>
-              <img src={showCaseImg} alt='product' />
-            </div>
+            <MobileScanning cls='home-section-1-img'/>
           </div>
         </div>
       </div>

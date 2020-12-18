@@ -174,6 +174,7 @@ section {
 /* Header */
 .header {
   border-bottom: 1px solid rgba(190, 190, 190, 0.2);
+  box-shadow: 0 0 10px black;
 }
 
 .header::before {
@@ -282,19 +283,7 @@ section {
   width: 100%;
   position: absolute;
   left: 100px;
-  top: -80px;
-  animation: productani01 5s linear infinite;
-}
-
-@keyframes productani01 {
-  0%,
-  100% {
-    transform: translateY(15px);
-  }
-
-  50% {
-    transform: translateY(-15px);
-  }
+  top: 50px;
 }
 
 /* home-section-2 */
