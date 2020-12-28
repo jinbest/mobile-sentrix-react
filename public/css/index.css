@@ -3,3 +3,6 @@
 @import './responsive.css';
 @import './animation/index.css';
 @import './animation/mobile-scanning.css';
+@import './animation/phone-plugin.css';
+@import './animation/skip-activation.css';
+@import './animation/part-detection.css';

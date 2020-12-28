@@ -1,0 +1,134 @@
+.phone-plugin-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.phone-plugin-container .phone {
+  position: absolute;
+  width: 150px;
+  height: 300px;
+  top: -50px;
+  z-index: 2;
+  opacity: 0;
+  animation: phoneWithoutPlugin 10s linear infinite;
+}
+
+.phone-plugin-container .plugin {
+  position: absolute;
+  z-index: 1;
+  width: 35px;
+  height: 113px;
+  opacity: 0;
+  /* bottom: -50px; */
+  animation: plugIn 10s linear infinite;
+}
+
+.phone-plugin-container .phone-plugin {
+  position: absolute;
+  width: 150px;
+  height: 400px;
+  z-index: 3;
+  top: -50px;
+  opacity: 0;
+  animation: phonePlugin 10s linear infinite;
+}
+
+.phone-plugin-container .phone-group1 {
+  position: absolute;
+  width: 400px;
+  opacity: 0;
+  animation: phoneGroup1 10s linear infinite;
+}
+
+.phone-plugin-container .phone-group2 {
+  position: absolute;
+  width: 600px;
+  animation: phoneGroup2 10s linear infinite;
+}
+
+/* Animation here */
+
+@keyframes phoneWithoutPlugin {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  5%, 30% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  30.1%, 100% {
+    opacity: 0;
+  }
+}
+
+@keyframes plugIn {
+  0%, 14.9% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  15% {
+    bottom: -200px;
+    opacity: 1;
+    transform: scale(1);
+  }
+  22.5%, 30% {
+    bottom: -50px;
+    transform: scale(1);
+    opacity: 1;
+  }
+  30.1%, 100% {
+    opacity: 0;
+  }
+}
+
+@keyframes phonePlugin {
+  0%, 30% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  30.1% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  42.5%, 100% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+}
+
+@keyframes phoneGroup1 {
+  0%, 42.5% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  48.75%, 61.25% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  73.75%, 100% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+}
+
+@keyframes phoneGroup2 {
+  0%, 73.75% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  80%, 92.5% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+}

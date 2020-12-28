@@ -1,42 +1,37 @@
-import React, { Component } from 'react'
-import {Redirect} from 'react-router'
-import { Route, Switch } from 'react-router-dom'
+import React from 'react'
+import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import { Footer, Header, Preloader } from './components/'
-import { Section1, Section2, Section3, Section4, Section5 } from './pages/home/'
+import { Home } from './pages/home'
 import { Error } from './pages/error'
 import { redirectRouters } from './Database'
 
-export default class App extends Component {
-  render() {
+const App = () => {
+
+  const BaseRouter = () => {
     return (
-      <React.Fragment>
-        <Preloader />
-        <Switch className='p-0'>
-          <Route exact path='/'>
-            <React.Fragment>
-              <Header />
-              <Section1 />
-              <Section2 />
-              <Section3 />
-              <Section4 />
-              <Section5 />
-              <Footer />
-            </React.Fragment>
-          </Route>
-          {redirectRouters.map((item, index) => {
-            return (
-              <Route path={'/' + item} key={index}>
-                <Redirect to='error'/>
-              </Route>
-            )
-          })}
-          <Route path='/error'>
-            <Header />
-            <Error />
-            <Footer />
-          </Route>          
-        </Switch>
-      </React.Fragment>
+      <>
+        <Route path='/' exact component={Home} />
+        {redirectRouters.map((item, index) => {
+          return (
+            <Route path={'/' + item} key={index} render={() => <Redirect to='/error' />} />
+          )
+        })}
+        <Route path='/error' component={Error} />
+      </>
     )
   }
+
+  return (
+    <div>
+      <Preloader />
+      <Router>
+        <Header />
+        <BaseRouter />
+        <Footer />
+      </Router>
+    </div>
+  )
+  
 }
+
+export default App

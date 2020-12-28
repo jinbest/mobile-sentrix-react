@@ -7,7 +7,7 @@ export default function SectionTitle({ subtitle, isLeft }) {
   }
 
   const getColClasses = () => {
-    return isLeft ? 'col-lg-12' : 'col-lg-7'
+    return isLeft ? 'col-lg-12' : 'col-lg-9'
   }
   return (
     <div className={getRowClasses()}>
