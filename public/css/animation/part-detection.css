@@ -9,10 +9,63 @@
   margin-top: 70px;
 }
 
-.phone-part-detection-container .blankPhone {
+.phone-part-detection-container .blank-phone-cover {
   position: absolute;
   width: 150px;
   height: 300px;
   top: -50px;
-  z-index: 2;
+}
+
+.phone-part-detection-container .blank-phone-cover .cover {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  bottom: 0;
+  left: 0;
+  overflow: hidden !important;
+  animation: coverDetection 7s linear infinite;
+}
+
+@keyframes coverDetection {
+  0%, 32% {
+    height: 280px;
+  }
+  88%, 100% {
+    height: 0px;
+  }
+}
+
+.phone-part-detection-container .blankPhone {
+  position: absolute;
+  width: 150px;
+  height: 300px;
+  bottom: 0;
+  left: 0;
+}
+
+.phone-part-detection-container .phoneDetection {
+  position: absolute;
+  width: 150px;
+  height: 300px;
+  top: 0px;
+  left: 0;
+}
+.phone-part-detection-container .blueLine {
+  position: absolute;
+  width: 250px;
+  top: -75px;
+  animation: scannerDetection 7s linear infinite;
+}
+
+@keyframes scannerDetection {
+  0%, 5% {
+    opacity: 0;
+  }  
+  15%, 25% {
+    opacity: 1;
+    top: -75px;
+  }
+  88%, 100% {
+    top: 240px;
+  }
 }

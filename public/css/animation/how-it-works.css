@@ -1,0 +1,47 @@
+.sec3-login {
+  animation: sec3Login 15s linear infinite;
+}
+
+@keyframes sec3Login {
+  0% {
+    transform: scale(1);
+  }
+  2%, 25% {
+    transform: scale(1.1);
+  }
+  27%, 100% {
+    transform: scale(1);
+  }
+}
+
+.sec3-plugin {
+  animation: sec3Plugin 15s linear infinite;
+}
+
+@keyframes sec3Plugin {
+  0%, 27% {
+    transform: scale(1);
+  }
+  29%, 52% {
+    transform: scale(1.1);
+  }
+  54%, 100% {
+    transform: scale(1);
+  }
+}
+
+.sec3-diagnosis {
+  animation: sec3Diagnosis 15s linear infinite;
+}
+
+@keyframes sec3Diagnosis {
+  0%, 54% {
+    transform: scale(1);
+  }
+  56%, 79% {
+    transform: scale(1.1);
+  }
+  81%, 100% {
+    transform: scale(1);
+  }
+}

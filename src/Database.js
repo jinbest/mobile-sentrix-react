@@ -1,10 +1,5 @@
 
-import featureLogin from './img/feature/login.png'
-import featurePlugin from './img/feature/plugin.png'
-import featureViewDiag from './img/feature/view-diagnosis.png'
-
-import adisa from './img/adisa-product.png'
-
+/* Homepage: Section1 Animation Data */
 import mobile1 from './img/mobile/1.png'
 import mobile2 from './img/mobile/2.png'
 import mobile3 from './img/mobile/3.png'
@@ -16,14 +11,14 @@ import mobile7 from './img/mobile/7.png'
 import logoHeader from './img/logo/logo-header.png'
 import logoFooter from './img/logo/logo-footer.png'
 
-/* Phone-Plugin Animation Data */
+/* Homepage: Phone-Plugin Animation Data */
 import phone1 from './img/section2/multiple-diagnosis/phone1.png'
 import plugin from './img/section2/multiple-diagnosis/plug.png'
 import phonePluged from './img/section2/multiple-diagnosis/phone-pluged.png'
 import group1 from './img/section2/multiple-diagnosis/group1.png'
 import group2 from './img/section2/multiple-diagnosis/group2.png'
 
-/* Skip-activation Animation Data */
+/* Homepage: Skip-activation Animation Data */
 import skipPhone from './img/section2/skip-activation/skip-phone.png'
 import lineCurve from './img/section2/skip-activation/line-curve.png'
 import panYRoundB from './img/section2/skip-activation/pan-y-round-b.png'
@@ -36,7 +31,23 @@ import panDrRoundY from './img/section2/skip-activation/pan-dr-round-y.png'
 import panGray from './img/section2/skip-activation/pan-gray.png'
 import lineDots from './img/section2/skip-activation/line-dots.png'
 
+/* Homepage: Part-detection Animation Data */
+import blueLine from './img/section2/part-detection/blue-line.png'
+import phoneDetection from './img/section2/part-detection/phone-detection.png'
 
+/* Homepage: Section3 images */
+import blankPhoneSec3 from './img/section3/blank-phone.png'
+import check from './img/section3/check.png'
+import Intersect1 from './img/section3/Intersect1.png'
+import Intersect2 from './img/section3/Intersect2.png'
+import Intersect3 from './img/section3/Intersect3.png'
+import loginSec3 from './img/section3/login.png'
+import pluginSec3 from './img/section3/plugin.png'
+import unchecked from './img/section3/unchecked.png'
+import phonePluggedIn from './img/section3/phonePluggedIn.png'
+import dot from './img/section3/dot.png'
+
+import adisa from './img/adisa-product.png'
 
 const featuresDataSection2 = [
   { 
@@ -75,12 +86,6 @@ const featuresDataSection2 = [
       selected: '#C52C1D',
     }
   },
-]
-
-const featuresDataSection3 = [
-  { img: featureLogin, subtitle: 'LOG IN' },
-  { img: featurePlugin, subtitle: 'PLUG IN' },
-  { img: featureViewDiag, subtitle: 'VIEW DIAGNOSIS' },
 ]
 
 const featuresDataSection5 = [
@@ -169,19 +174,32 @@ const logoData = {
 const skipActiveAnimation = {
   skipPhone: skipPhone,
   lineCurve: lineCurve,
-  panYRoundB: panYRoundB,
-  panOrange: panOrange,
-  panBlue: panBlue,
-  panGElipY: panGElipY,
-  panYellow: panYellow,
-  panRRoundG: panRRoundG,
-  panDrRoundY: panDrRoundY,
-  panGray: panGray,
-  lineDots: lineDots
+  lineDots: lineDots,
+  unlockedSnaps1: [
+    panYRoundB, panOrange, panBlue, panGElipY, panYellow, panRRoundG, panBlue, panDrRoundY, panGray
+  ],
+  unlockedSnaps2: [
+    panOrange, panYRoundB, panBlue
+  ]
 }
 
 const partDetectAnimation = {
-  blankPhone: skipPhone
+  blankPhone: skipPhone,
+  blueLine: blueLine,
+  phoneDetection: phoneDetection
+}
+
+const homeSec3Images = {
+  blankPhoneSec3: blankPhoneSec3,
+  check: check,
+  Intersect1: Intersect1,
+  Intersect2: Intersect2,
+  Intersect3: Intersect3,
+  loginSec3: loginSec3,
+  pluginSec3: pluginSec3,
+  unchecked: unchecked,
+  phonePluggedIn: phonePluggedIn,
+  dot: dot
 }
 
 export {
@@ -189,8 +207,8 @@ export {
   phonePluginAnimations,
   skipActiveAnimation,
   partDetectAnimation,
+  homeSec3Images,
   featuresDataSection2,
-  featuresDataSection3,
   featuresDataSection5,
   navItemsData,
   footerData,

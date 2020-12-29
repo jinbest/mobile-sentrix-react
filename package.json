@@ -2,7 +2,7 @@
   "name": "device-commerce-ms",
   "version": "0.1.0",
   "private": true,
-  "author": "jin <jin.bestvictoria718@gmail.com>",
+  "author": "",
   "homepage": "",
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.11",

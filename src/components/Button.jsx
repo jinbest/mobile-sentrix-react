@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Button({
   title,
-  icon,
+  icon='',
   type = 'mybtn1',
   href = '',
   bgcolor = '#4F9EE7',

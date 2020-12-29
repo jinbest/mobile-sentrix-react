@@ -97,33 +97,33 @@
     opacity: 1;
     transform: scale(1);
   }
-  42.5%, 100% {
+  40%, 100% {
     transform: scale(0.5);
     opacity: 0;
   }
 }
 
 @keyframes phoneGroup1 {
-  0%, 42.5% {
+  0%, 35% {
     transform: scale(0.8);
     opacity: 0;
   }
-  48.75%, 61.25% {
+  40%, 60% {
     transform: scale(1);
     opacity: 1;
   }
-  73.75%, 100% {
+  70%, 100% {
     transform: scale(0.5);
     opacity: 0;
   }
 }
 
 @keyframes phoneGroup2 {
-  0%, 73.75% {
+  0%, 65% {
     transform: scale(0.8);
     opacity: 0;
   }
-  80%, 92.5% {
+  70%, 92.5% {
     transform: scale(1);
     opacity: 1;
   }
