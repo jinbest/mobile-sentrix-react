@@ -1,5 +1,3 @@
-/*Google font*/
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap'); */
 
 /* Global Style */
 * {
@@ -25,6 +23,7 @@ input {
 .container1 {
   padding: 0 100px;
   margin: 0 auto;
+  width: 90%;
 }
 
 .container-header-footer {
@@ -44,9 +43,8 @@ input {
   color: black;
 }
 
-.mybtn1,
-.mybtn2 {
-  font-size: 25px;
+.mybtn1, .mybtn2 {
+  font-size: 20px;
   font-weight: 600;
   border-radius: 50px;
   padding: 10px 50px;
@@ -128,11 +126,11 @@ section {
 }
 
 .section-title .subtitle {
-  font-size: 50px;
+  font-size: 3.5vw;
   line-height: 60px;
   color: #222222;
   font-weight: 700;
-  margin: 20px 0;
+  margin: 50px 0;
 }
 
 .bg-light {
@@ -174,6 +172,7 @@ section {
 /* Header */
 .header {
   border-bottom: 1px solid rgba(190, 190, 190, 0.2);
+  box-shadow: 0 0 10px black;
 }
 
 .header::before {
@@ -234,11 +233,14 @@ section {
 .home-section-1 {
   position: relative;
   z-index: 1;
-  background-image: url('../img/CellPhone-bg.png');
-  background-size: cover;
-  background-repeat: no-repeat;
   overflow: hidden;
-  padding: 250px 0 200px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  /* background-image: url('../img/CellPhone-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat; */
+  /* padding: 250px 0 200px; */
 }
 
 .home-section-1::before {
@@ -254,11 +256,18 @@ section {
   z-index: -1;
 }
 
+.home-section-1 .home-section-1-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .home-section-1 .home-section-1-content h1 {
   font-size: 70px;
   color: #ffffff;
   font-weight: 700;
-  line-height: 70px;
+  line-height: 80px;
   margin: 0;
   margin-bottom: 50px;
   width: 780px;
@@ -282,19 +291,7 @@ section {
   width: 100%;
   position: absolute;
   left: 100px;
-  top: -80px;
-  animation: productani01 5s linear infinite;
-}
-
-@keyframes productani01 {
-  0%,
-  100% {
-    transform: translateY(15px);
-  }
-
-  50% {
-    transform: translateY(-15px);
-  }
+  top: 50px;
 }
 
 /* home-section-2 */
@@ -342,37 +339,186 @@ section {
   color: #858585;
 }
 
+.home-section2-tab-container {
+  justify-content: space-between;
+  position: relative;
+}
+
+.home-section2-tab {
+  cursor: pointer;
+}
+
+.home-section2-tab > p {
+  padding-bottom: 15px;
+  margin-bottom: -3px;
+  width: fit-content;
+  font-size: 2vw;
+}
+
+.home-section2-tab > p:hover {
+  color: #a55149 !important;
+  border-bottom: 3px solid #a55149 !important;
+}
+
+.home-sec2-animation-row {
+  height: 400px;
+}
+
+.home-sec2-animation-div {
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-sec2-content-div {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.home-sec2-content-div > p {
+  font-size: 2vw;
+  margin: 20px;
+}
+
+.typewritter-div {
+  padding: 10px 25px;
+  border: 2px solid black;
+  border-radius: 50px;
+  background-color: #CAE2F8;
+  width: 31vw;
+  font-size: 1.5vw;
+  height: 60px;
+  min-width: 300px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
 /* home-section-3 */
 .home-section-3 {
-  padding: 80px 0 0px;
+  padding: 0 0 100px;
   background-color: #ffffff;
 }
 
-.home-section-3 .features-item {
-  box-shadow: 0 0 10px #dddde3;
-  margin-bottom: 50px;
-  background-color:#F5F5F5;
-  border-radius: 15px;
-  text-align: center;
-  transition: all 0.5s ease;
+.home-section-3 .sec3-col {
+  padding: 0 1.5vw;
+  justify-content: center;
 }
 
-.home-section-3 .features-item img {
-  width: 100%;
-  height: 100%;
+.home-sec3-item-container {
+  height: 32vw;
+  border-radius: 20px;
+  box-shadow: 20px 20px 60px #D0D0D0, -20px -20px 60px #FFFFFF;
+  width: 22.4vw;
+  background-color: #F5F5F5;
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.home-section-3 .features-item:hover {
-  transform: translateY(-15px);
+.home-sec3-item-container .intersect-1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  z-index: 1;
 }
 
-.home-section-3 .features-item:hover p {
-  color: #858585;
+.home-sec3-item-container .loginSec3 {
+  position: absolute;
+  z-index: 2;
+  top: 20%;
+  width: 80%;
 }
+
+.home-sec3-item-container .password-dots {
+  display: flex;
+  position: absolute;
+  height: 6%;
+  width: 55%;
+  top: 63%;
+  background-color: transparent;
+  z-index: 3;
+  justify-content: left;
+  align-items: center;
+}
+
+.home-sec3-item-container .password-dots .dot {
+  height: 24%;
+  margin: 0 1%;
+}
+
+.home-sec3-item-container .intersect-2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 45%;
+  z-index: 1;
+}
+
+.home-sec3-item-container .blankPhoneSec3 {
+  position: absolute;
+  z-index: 3;
+  top: 7%;
+  width: 37%;
+}
+
+.home-sec3-item-container .pluginSec3 {
+  position: absolute;
+  z-index: 2;
+  top: 53%;
+  width: 29%;
+}
+
+.home-sec3-item-container .intersect-3 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 80%;
+  z-index: 1;
+}
+
+.home-sec3-item-container .unchecked {
+  position: absolute;
+  z-index: 2;
+  top: 11%;
+  width: 77%;
+}
+
+.home-sec3-item-container .check {
+  position: absolute;
+  z-index: 3;
+  width: 5%;
+}
+
+.home-sec3-item-container .sec3-card-num {
+  position: absolute;
+  top: 0.7vw;
+  right: 1.5vw;
+  font-size: 2.5vw;
+  font-weight: bold;
+  color: rgba(223, 214, 214, 0.32);
+}
+
+.home-sec3-item-container .sec3-card-topic {
+  font-size: 2vw;
+  font-weight: bold;
+  bottom: 3vw;
+  position: absolute;
+  z-index: 5;
+}
+
+
 
 /* home-section-4 */
 .home-section-4 {
-  padding: 260px 0 120px;
+  padding: 200px 0 120px;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -390,7 +536,7 @@ section {
   left: 0;
   right: 0;
   top: -1px;
-  height: 400px;
+  height: 300px;
   background-image: url('../img/shape-bg-2.png');
   background-size: cover;
   background-position: top;
@@ -410,11 +556,12 @@ section {
 }
 
 .home-section-5 .features-item {
-  box-shadow: 0 0 20px #000000;
+  /* box-shadow: 0 0 20px #000000; */
+  box-shadow: 20px 20px 18px #0C0C0C, -20px -20px 18px rgba(28, 28, 28, 0.4);
   padding: 40px 30px;
   margin-bottom: 30px;
   background-color:#141414;
-  border-radius: 20px;
+  border-radius: 30px;
   text-align: center;
   transition: all 0.5s ease;
 }
@@ -426,13 +573,13 @@ section {
 
 .home-section-5 .features-item h3 {
   color: white;
-  font-size: 40px;
+  font-size: 3vw;
   padding: 10px 0;
 }
 
 .home-section-5 .features-item p {
   color: white;
-  font-size: 20px;
+  font-size: 2vw;
   padding: 20px 0;
 }
 

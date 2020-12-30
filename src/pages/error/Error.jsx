@@ -11,7 +11,7 @@ export default function Error() {
     >
       <div className='row text-white text-center justify-content-center'>
         <div className='col-lg-8'>
-          <p style={{color: 'black'}}>YOU MAY HAVE MISTYPED THE ADDRESS OR THE PAGE MAY HAVE MOVED.</p>
+          <p style={{color: 'black', marginBottom: '50px'}}>YOU MAY HAVE MISTYPED THE ADDRESS OR THE PAGE MAY HAVE MOVED.</p>
           <Button title='Return to Home' href='/' />
         </div>
       </div>

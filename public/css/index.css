@@ -1,4 +1,10 @@
 @import 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css';
-@import './style.css';
+@import './homepage.css';
 @import './responsive.css';
-@import './skins/index.css';
+@import './animation/index.css';
+@import './animation/mobile-scanning.css';
+@import './animation/mobile-sec1-scanner.css';
+@import './animation/phone-plugin.css';
+@import './animation/skip-activation.css';
+@import './animation/part-detection.css';
+@import './animation/how-it-works.css';

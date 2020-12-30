@@ -1,5 +1,22 @@
+body,
+p,
+div,
+a,
+button {
+  margin: 0;
+  overflow: visible !important;
+  font-family: 'Poppins', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 :root {
-  --theme:#000000;
+  --theme: #141414;
 }
 
 .section-title .title::before,
