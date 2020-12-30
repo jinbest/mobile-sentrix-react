@@ -8,6 +8,14 @@ import mobile5 from './img/mobile/5.png'
 import mobile6 from './img/mobile/6.png'
 import mobile7 from './img/mobile/7.png'
 
+/* HomeSec1 Animation Data */
+import mobileSec1 from './img/section1/mobileSec1.png'
+import layer1 from './img/section1/layer-1.png'
+import layer2 from './img/section1/layer-2.png'
+import layer3 from './img/section1/layer-3.png'
+import layer4 from './img/section1/layer-4.png'
+import lineScanner from './img/section1/line-scanner.png'
+
 import logoHeader from './img/logo/logo-header.png'
 import logoFooter from './img/logo/logo-footer.png'
 
@@ -36,7 +44,7 @@ import blueLine from './img/section2/part-detection/blue-line.png'
 import phoneDetection from './img/section2/part-detection/phone-detection.png'
 
 /* Homepage: Section3 images */
-import blankPhoneSec3 from './img/section3/blank-phone.png'
+import blankPhoneSec3 from './img/section3/blank-phone-new.png'
 import check from './img/section3/check.png'
 import Intersect1 from './img/section3/Intersect1.png'
 import Intersect2 from './img/section3/Intersect2.png'
@@ -44,7 +52,6 @@ import Intersect3 from './img/section3/Intersect3.png'
 import loginSec3 from './img/section3/login.png'
 import pluginSec3 from './img/section3/plugin.png'
 import unchecked from './img/section3/unchecked.png'
-import phonePluggedIn from './img/section3/phonePluggedIn.png'
 import dot from './img/section3/dot.png'
 
 import adisa from './img/adisa-product.png'
@@ -198,8 +205,16 @@ const homeSec3Images = {
   loginSec3: loginSec3,
   pluginSec3: pluginSec3,
   unchecked: unchecked,
-  phonePluggedIn: phonePluggedIn,
   dot: dot
+}
+
+const homeSec1Images = {
+  mobileSec1: mobileSec1,
+  layer1: layer1,
+  layer2: layer2,
+  layer3: layer3,
+  layer4: layer4,
+  lineScanner: lineScanner
 }
 
 export {
@@ -215,4 +230,5 @@ export {
   colorData,
   logoData,
   redirectRouters,
+  homeSec1Images
 }

@@ -44,6 +44,16 @@
   left: 0;
   width: 365px;
   height: 75px;
+  animation: LineCurve 10s linear infinite;
+}
+
+@keyframes LineCurve {
+  0%, 35% {
+    left: 150px;
+  }
+  60%, 100% {
+    left: -365px;
+  }
 }
 
 .phone-skip-activation-container .cover-lineCurve {
@@ -53,6 +63,7 @@
   position: absolute;
   top: 42px;
   width: 365px;
+  overflow: hidden !important;
 }
 
 .phone-skip-activation-container .cover-lineCurve .cover {
@@ -61,21 +72,16 @@
   height: 75px;
   left: 0;
   top: 0;
-  width: 154px;
-  animation: lineCover 10s linear infinite;
+  width: 150px;
+  animation: LineCover 10s linear infinite;
 }
 
-@keyframes lineCover {
+@keyframes LineCover {
   0%, 35% {
-    width: 0;
-    transform: scale(1);
+    left: -150px;
   }
-  38%, 60% {
-    width: 365px;
-    transform: scale(1);
-  }
-  62%, 100% {
-    transform: scale(0);
+  60%, 100% {
+    left: 365px;
   }
 }
 

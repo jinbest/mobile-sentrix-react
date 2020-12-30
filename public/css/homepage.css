@@ -23,6 +23,7 @@ input {
 .container1 {
   padding: 0 100px;
   margin: 0 auto;
+  width: 90%;
 }
 
 .container-header-footer {
@@ -232,11 +233,14 @@ section {
 .home-section-1 {
   position: relative;
   z-index: 1;
-  background-image: url('../img/CellPhone-bg.png');
-  background-size: cover;
-  background-repeat: no-repeat;
   overflow: hidden;
-  padding: 250px 0 200px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  /* background-image: url('../img/CellPhone-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat; */
+  /* padding: 250px 0 200px; */
 }
 
 .home-section-1::before {
@@ -252,11 +256,18 @@ section {
   z-index: -1;
 }
 
+.home-section-1 .home-section-1-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .home-section-1 .home-section-1-content h1 {
   font-size: 70px;
   color: #ffffff;
   font-weight: 700;
-  line-height: 70px;
+  line-height: 80px;
   margin: 0;
   margin-bottom: 50px;
   width: 780px;
@@ -387,7 +398,7 @@ section {
 
 /* home-section-3 */
 .home-section-3 {
-  padding: 0 0 60px;
+  padding: 0 0 100px;
   background-color: #ffffff;
 }
 
@@ -453,7 +464,7 @@ section {
 
 .home-sec3-item-container .blankPhoneSec3 {
   position: absolute;
-  z-index: 2;
+  z-index: 3;
   top: 7%;
   width: 37%;
 }
@@ -463,14 +474,6 @@ section {
   z-index: 2;
   top: 53%;
   width: 29%;
-}
-
-.home-sec3-item-container .phonePluggedIn {
-  position: absolute;
-  z-index: 3;
-  top: 7%;
-  width: 37%;
-  display: none;
 }
 
 .home-sec3-item-container .intersect-3 {
@@ -553,11 +556,12 @@ section {
 }
 
 .home-section-5 .features-item {
-  box-shadow: 0 0 20px #000000;
+  /* box-shadow: 0 0 20px #000000; */
+  box-shadow: 20px 20px 18px #0C0C0C, -20px -20px 18px rgba(28, 28, 28, 0.4);
   padding: 40px 30px;
   margin-bottom: 30px;
   background-color:#141414;
-  border-radius: 20px;
+  border-radius: 30px;
   text-align: center;
   transition: all 0.5s ease;
 }

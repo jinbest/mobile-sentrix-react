@@ -5,7 +5,9 @@ export default function PartDetection() {
   return (
     <div className='phone-part-detection-container'>      
       <div className='blank-phone-cover'>
-        <img className='phoneDetection' src={partDetectAnimation.phoneDetection} alt='phoneDetection' />
+        <div className='cover-detection'>
+          <img className='phoneDetection' src={partDetectAnimation.phoneDetection} alt='phoneDetection' />
+        </div>        
         <div className='cover'>
           <img className='blankPhone' src={partDetectAnimation.blankPhone} alt='blankPhone' />
         </div>

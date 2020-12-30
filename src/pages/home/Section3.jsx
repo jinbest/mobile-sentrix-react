@@ -48,7 +48,6 @@ export default function Section3() {
               <p className='sec3-card-topic'>PLUG IN</p>
               <img src={homeSec3Images.blankPhoneSec3} alt='blankPhoneSec3' className='blankPhoneSec3' />
               <img src={homeSec3Images.pluginSec3} alt='pluginSec3' className='pluginSec3' />
-              <img src={homeSec3Images.phonePluggedIn} alt='phonePluggedIn' className='phonePluggedIn' />
             </div>
           </div>
           <div className='col-lg-4 col-sm-6 d-flex sec3-col'>
