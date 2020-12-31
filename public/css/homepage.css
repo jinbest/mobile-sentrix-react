@@ -234,7 +234,7 @@ section {
   position: relative;
   z-index: 1;
   overflow: hidden;
-  height: 100vh;
+  height: 850px;
   display: flex;
   align-items: center;
   /* background-image: url('../img/CellPhone-bg.png');
