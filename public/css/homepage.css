@@ -284,6 +284,9 @@ section {
 
 .home-section-1 .home-section-1-img {
   position: relative;
+  height: 500px;
+  transform: scale(0.9);
+  top: 50px;
 }
 
 .home-section-1 .home-section-1-img img {

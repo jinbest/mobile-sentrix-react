@@ -74,7 +74,7 @@
     margin-bottom: 40px;
     left: 0px;
     width: 100%;
-    top: 200px;
+    /* top: 200px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,6 +130,10 @@
   }
   .mobile-sec1-scanner-container {
     height: 65vw !important;
+  }
+  .home-section-1 .home-section-1-img {
+    transform: scale(1);
+    left: -10%;
   }
 }
 
@@ -192,6 +196,9 @@
   .home-section-1 {
     height: 1000px;
   }
+  .home-section-1 .home-section-1-img {
+    top: 120px;
+  }
   .home-sec2-content-div > p {
     font-size: 3.5vw;
   }
@@ -241,5 +248,8 @@
   .mobile-sec1-scanner-container {
     margin-top: 100px !important;
   }
-  
+  .home-section-1 .home-section-1-img {
+    height: 400px;
+    top: 80px;
+  }
 }

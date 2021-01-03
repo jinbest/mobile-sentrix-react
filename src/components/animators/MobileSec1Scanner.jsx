@@ -12,7 +12,7 @@ export default function MobileSec1Scanner() {
           <img src={homeSec1Images.layer3} alt='mobile-layer3' className='mobile-layer3' />
           <img src={homeSec1Images.layer4} alt='mobile-layer4' className='mobile-layer4' />
         </div>
-        <img src={homeSec1Images.lineScanner} alt='mobile-lineScanner' className='mobile-lineScanner' />
+        <img src={homeSec1Images.lineScannerNew} alt='mobile-lineScanner' className='mobile-lineScanner' />
       </div>
     </div>
   )

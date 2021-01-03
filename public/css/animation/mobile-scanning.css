@@ -52,6 +52,7 @@
 
 .scanner {
   animation: scanning 7s linear infinite;
+  /* transform: translate(250px, -180px); */
 }
 
 @keyframes scanning {
@@ -60,7 +61,7 @@
     opacity: 0;
   }
   50% {
-    transform: translate(200px, -100px);
+    transform: translate(250px, -180px);
     opacity: 0;
   }
   15%, 35%, 65%, 85% {
