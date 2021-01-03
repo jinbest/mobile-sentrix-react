@@ -4,7 +4,7 @@ import mobile1 from './img/mobile/1.png'
 import mobile2 from './img/mobile/2.png'
 import mobile3 from './img/mobile/3.png'
 import mobile4 from './img/mobile/4.png'
-import mobile5 from './img/mobile/5.png'
+import mobile5 from './img/mobile/5-1.png'
 import mobile6 from './img/mobile/6.png'
 import mobile7 from './img/mobile/7.png'
 
@@ -15,6 +15,7 @@ import layer2 from './img/section1/layer-2.png'
 import layer3 from './img/section1/layer-3.png'
 import layer4 from './img/section1/layer-4.png'
 import lineScanner from './img/section1/line-scanner.png'
+import lineScannerNew from './img/section1/line-scanner-1.png'
 
 import logoHeader from './img/logo/logo-header.png'
 import logoFooter from './img/logo/logo-footer.png'
@@ -214,7 +215,8 @@ const homeSec1Images = {
   layer2: layer2,
   layer3: layer3,
   layer4: layer4,
-  lineScanner: lineScanner
+  lineScanner: lineScanner,
+  lineScannerNew: lineScannerNew
 }
 
 export {

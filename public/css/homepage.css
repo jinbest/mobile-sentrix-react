@@ -234,7 +234,7 @@ section {
   position: relative;
   z-index: 1;
   overflow: hidden;
-  height: 100vh;
+  height: 850px;
   display: flex;
   align-items: center;
   /* background-image: url('../img/CellPhone-bg.png');
@@ -284,6 +284,9 @@ section {
 
 .home-section-1 .home-section-1-img {
   position: relative;
+  height: 500px;
+  transform: scale(0.9);
+  top: 50px;
 }
 
 .home-section-1 .home-section-1-img img {

@@ -11,7 +11,7 @@ export default function Button({
   width = ''
 }) {
   return (
-    <Link to={href} className={'btn ' + type} style={{backgroundColor: bgcolor, width: width}}>
+    <Link to={href} className={'btn ' + type} style={{backgroundColor: bgcolor, width: width, maxWidth: '60%'}}>
       <span style={{color: txcolor}}>{title}</span>
       {icon && <i className={icon}></i>}
     </Link>
