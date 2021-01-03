@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../../components/Button'
-// import MobileScanning from '../../components/animators/MobileScanning'
-import MobileSec1Scanner from '../../components/animators/MobileSec1Scanner'
+import MobileScanning from '../../components/animators/MobileScanning'
+// import MobileSec1Scanner from '../../components/animators/MobileSec1Scanner'
 
 export default function Section1() {
   return (
@@ -15,8 +15,8 @@ export default function Section1() {
             </div>
           </div>
           <div className='col-lg-6 order-first order-lg-last'>
-            {/* <MobileScanning cls='home-section-1-img'/> */}
-            <MobileSec1Scanner />
+            <MobileScanning cls='home-section-1-img'/>
+            {/* <MobileSec1Scanner /> */}
           </div>
         </div>
       </div>
