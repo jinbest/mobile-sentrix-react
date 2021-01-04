@@ -21,7 +21,7 @@
   font-size: 25px;
   font-weight: bold;
   top: 85px;
-  animation: fadeText 7s linear infinite;
+  animation: fadeText 5s linear infinite;
 }
 
 @keyframes fadeText {
@@ -44,7 +44,7 @@
   left: 0;
   width: 365px;
   height: 75px;
-  animation: LineCurve 7s linear infinite;
+  animation: LineCurve 5s linear infinite;
 }
 
 @keyframes LineCurve {
@@ -73,7 +73,7 @@
   left: 0;
   top: 0;
   width: 150px;
-  animation: LineCover 7s linear infinite;
+  animation: LineCover 5s linear infinite;
 }
 
 @keyframes LineCover {
@@ -94,7 +94,7 @@
   width: 120px;
   top: 0;
   z-index: 1;
-  animation: unlockDiv 7s linear infinite;
+  animation: unlockDiv 5s linear infinite;
 }
 
 .phone-skip-activation-container .unlocked-item {
