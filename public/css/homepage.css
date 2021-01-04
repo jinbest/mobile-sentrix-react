@@ -220,7 +220,7 @@ section {
   border: solid 1px black;
   border-radius: 50px;
   margin-top: 12px;
-  width: 135px;
+  width: 140px;
   margin-left: 15px;
   height: 40px;
   text-align: center;
@@ -264,13 +264,13 @@ section {
 }
 
 .home-section-1 .home-section-1-content h1 {
-  font-size: 70px;
+  font-size: 65px;
   color: #ffffff;
   font-weight: 700;
   line-height: 80px;
   margin: 0;
   margin-bottom: 50px;
-  width: 780px;
+  width: 100%;
 }
 
 .home-section-1 .home-section-1-content p {
