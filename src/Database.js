@@ -110,7 +110,7 @@ const featuresDataSection5 = [
 ]
 
 const navItemsData = [
-  { href: 'feature', text: 'Feature', isActive: false },
+  { href: 'feature', text: 'Features', isActive: false },
   { href: 'pricing', text: 'Pricing', isActive: false },
   { href: 'certification', text: 'Certification', isActive: false },
   { href: 'account', text: 'My Account', isActive: false },

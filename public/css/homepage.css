@@ -130,7 +130,7 @@ section {
   line-height: 60px;
   color: #222222;
   font-weight: 700;
-  margin: 50px 0;
+  margin: 50px 0 100px;
 }
 
 .bg-light {
@@ -312,7 +312,7 @@ section {
   left: 0;
   right: 0;
   bottom: -1px;
-  height: 112px;
+  height: 130px;
   background-image: url('../img/shape-bg-1.png');
   background-size: cover;
   background-position: bottom;
