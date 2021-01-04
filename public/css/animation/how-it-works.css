@@ -1,7 +1,7 @@
 
 /* Login Animation */
 .sec3-login {
-  animation: sec3Login 15s linear infinite;
+  animation: sec3Login 8s linear infinite;
 }
 
 @keyframes sec3Login {
@@ -20,62 +20,62 @@ img[id^=dot] {
   opacity: 0;
 }
 
-#dot0 { animation: passDot0 15s linear infinite; }
+#dot0 { animation: passDot0 8s linear infinite; }
 @keyframes passDot0 { 0%, 5% { opacity: 0; } 5.1%, 100% { opacity: 1; } }
 
-#dot1 { animation: passDot1 15s linear infinite; }
+#dot1 { animation: passDot1 8s linear infinite; }
 @keyframes passDot1 { 0%, 6% { opacity: 0; } 6.1%, 100% { opacity: 1; } }
 
-#dot2 { animation: passDot2 15s linear infinite; }
+#dot2 { animation: passDot2 8s linear infinite; }
 @keyframes passDot2 { 0%, 7% { opacity: 0; } 7.1%, 100% { opacity: 1; } }
 
-#dot3 { animation: passDot3 15s linear infinite; }
+#dot3 { animation: passDot3 8s linear infinite; }
 @keyframes passDot3 { 0%, 8% { opacity: 0; } 8.1%, 100% { opacity: 1; } }
 
-#dot4 { animation: passDot4 15s linear infinite; }
+#dot4 { animation: passDot4 8s linear infinite; }
 @keyframes passDot4 { 0%, 9% { opacity: 0; } 9.1%, 100% { opacity: 1; } }
 
-#dot5 { animation: passDot5 15s linear infinite; }
+#dot5 { animation: passDot5 8s linear infinite; }
 @keyframes passDot5 { 0%, 10% { opacity: 0; } 10.1%, 100% { opacity: 1; } }
 
-#dot6 { animation: passDot6 15s linear infinite; }
+#dot6 { animation: passDot6 8s linear infinite; }
 @keyframes passDot6 { 0%, 11% { opacity: 0; } 11.1%, 100% { opacity: 1; } }
 
-#dot7 { animation: passDot7 15s linear infinite; }
+#dot7 { animation: passDot7 8s linear infinite; }
 @keyframes passDot7 { 0%, 12% { opacity: 0; } 12.1%, 100% { opacity: 1; } }
 
-#dot8 { animation: passDot8 15s linear infinite; }
+#dot8 { animation: passDot8 8s linear infinite; }
 @keyframes passDot8 { 0%, 13% { opacity: 0; } 13.1%, 100% { opacity: 1; } }
 
-#dot9 { animation: passDot9 15s linear infinite; }
+#dot9 { animation: passDot9 8s linear infinite; }
 @keyframes passDot9 { 0%, 14% { opacity: 0; } 14.1%, 100% { opacity: 1; } }
 
-#dot10 { animation: passDot10 15s linear infinite; }
+#dot10 { animation: passDot10 8s linear infinite; }
 @keyframes passDot10 { 0%, 15% { opacity: 0; } 15.1%, 100% { opacity: 1; } }
 
-#dot11 { animation: passDot11 15s linear infinite; }
+#dot11 { animation: passDot11 8s linear infinite; }
 @keyframes passDot11 { 0%, 16% { opacity: 0; } 16.1%, 100% { opacity: 1; } }
 
-#dot12 { animation: passDot12 15s linear infinite; }
+#dot12 { animation: passDot12 8s linear infinite; }
 @keyframes passDot12 { 0%, 17% { opacity: 0; } 17.1%, 100% { opacity: 1; } }
 
-#dot13 { animation: passDot13 15s linear infinite; }
+#dot13 { animation: passDot13 8s linear infinite; }
 @keyframes passDot13 { 0%, 18% { opacity: 0; } 18.1%, 100% { opacity: 1; } }
 
-#dot14 { animation: passDot14 15s linear infinite; }
+#dot14 { animation: passDot14 8s linear infinite; }
 @keyframes passDot14 { 0%, 19% { opacity: 0; } 19.1%, 100% { opacity: 1; } }
 
-#dot15 { animation: passDot15 15s linear infinite; }
+#dot15 { animation: passDot15 8s linear infinite; }
 @keyframes passDot15 { 0%, 20% { opacity: 0; } 20.1%, 100% { opacity: 1; } }
 
-#dot16 { animation: passDot16 15s linear infinite; }
+#dot16 { animation: passDot16 8s linear infinite; }
 @keyframes passDot16 { 0%, 21% { opacity: 0; } 21.1%, 100% { opacity: 1; } }
 
 
 
 /* Plugin Animation */
 .sec3-plugin {
-  animation: sec3Plugin 15s linear infinite;
+  animation: sec3Plugin 8s linear infinite;
 }
 
 @keyframes sec3Plugin {
@@ -91,7 +91,7 @@ img[id^=dot] {
 }
 
 .home-sec3-item-container .pluginSec3 {
-  animation: plugSection3 15s linear infinite;
+  animation: plugSection3 8s linear infinite;
 }
 
 @keyframes plugSection3 {
@@ -102,7 +102,7 @@ img[id^=dot] {
 
 /* Checking Animation */
 .sec3-diagnosis {
-  animation: sec3Diagnosis 15s linear infinite;
+  animation: sec3Diagnosis 8s linear infinite;
 }
 
 @keyframes sec3Diagnosis {
@@ -121,32 +121,32 @@ img[id^=check] {
   opacity: 0;
 }
 
-#check0 { animation: checking0 15s linear infinite; }
+#check0 { animation: checking0 8s linear infinite; }
 @keyframes checking0 { 0%, 57.5% { opacity: 0; } 57.6%, 100% { opacity: 1; } }
 
-#check1 { animation: checking1 15s linear infinite; }
+#check1 { animation: checking1 8s linear infinite; }
 @keyframes checking1 { 0%, 59.5% { opacity: 0; } 59.6%, 100% { opacity: 1; } }
 
-#check2 { animation: checking2 15s linear infinite; }
+#check2 { animation: checking2 8s linear infinite; }
 @keyframes checking2 { 0%, 61.5% { opacity: 0; } 61.6%, 100% { opacity: 1; } }
 
-#check3 { animation: checking3 15s linear infinite; }
+#check3 { animation: checking3 8s linear infinite; }
 @keyframes checking3 { 0%, 63.5% { opacity: 0; } 63.6%, 100% { opacity: 1; } }
 
-#check4 { animation: checking4 15s linear infinite; }
+#check4 { animation: checking4 8s linear infinite; }
 @keyframes checking4 { 0%, 65.5% { opacity: 0; } 65.6%, 100% { opacity: 1; } }
 
-#check5 { animation: checking5 15s linear infinite; }
+#check5 { animation: checking5 8s linear infinite; }
 @keyframes checking5 { 0%, 67.5% { opacity: 0; } 67.6%, 100% { opacity: 1; } }
 
-#check6 { animation: checking6 15s linear infinite; }
+#check6 { animation: checking6 8s linear infinite; }
 @keyframes checking6 { 0%, 69.5% { opacity: 0; } 69.6%, 100% { opacity: 1; } }
 
-#check7 { animation: checking7 15s linear infinite; }
+#check7 { animation: checking7 8s linear infinite; }
 @keyframes checking7 { 0%, 71.5% { opacity: 0; } 71.6%, 100% { opacity: 1; } }
 
-#check8 { animation: checking8 15s linear infinite; }
+#check8 { animation: checking8 8s linear infinite; }
 @keyframes checking8 { 0%, 73.5% { opacity: 0; } 73.6%, 100% { opacity: 1; } }
 
-#check9 { animation: checking9 15s linear infinite; }
+#check9 { animation: checking9 8s linear infinite; }
 @keyframes checking9 { 0%, 75.5% { opacity: 0; } 75.6%, 100% { opacity: 1; } }

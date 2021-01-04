@@ -24,7 +24,7 @@
   left: 0;
   opacity: 0.9;
   overflow: hidden !important;
-  animation: coverDetection 7s linear infinite;
+  animation: coverDetection 4.5s linear infinite;
 }
 
 @keyframes coverDetection {
@@ -52,7 +52,7 @@
   left: 0;
   transform: scaleX(1.05);
   overflow: hidden !important;
-  animation: coverDetection2 7s linear infinite;
+  animation: coverDetection2 4.5s linear infinite;
 }
 
 @keyframes coverDetection2 {
@@ -76,7 +76,7 @@
   position: absolute;
   width: 250px;
   top: -75px;
-  animation: scannerDetection 7s linear infinite;
+  animation: scannerDetection 4.5s linear infinite;
 }
 
 @keyframes scannerDetection {
