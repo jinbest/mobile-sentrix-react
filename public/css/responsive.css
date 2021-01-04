@@ -20,7 +20,8 @@
 
 @media (max-width: 991px) {
   .header {
-    padding: 5px 0;
+    padding: 15px 0;
+    overflow: hidden;
   }
   .header .navbar-nav {
     background-color: #ffffff;
