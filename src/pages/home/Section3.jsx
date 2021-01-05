@@ -26,7 +26,7 @@ export default function Section3() {
       <div className='container1'>
         <SectionTitle subtitle='How It Works?' />
         <div className='row'>
-          <div className='col-lg-4 col-sm-6 d-flex sec3-col'>
+          <div className='col-lg-4 col-md-4 d-flex sec3-col'>
             <div className='home-sec3-item-container sec3-login'>
               <img src={homeSec3Images.Intersect1} alt='intersect-1' className='intersect-1' />
               <p className='sec3-card-num'>01</p>
@@ -41,7 +41,7 @@ export default function Section3() {
               </div>
             </div>
           </div>
-          <div className='col-lg-4 col-sm-6 d-flex sec3-col'>
+          <div className='col-lg-4 col-md-4 d-flex sec3-col'>
             <div className='home-sec3-item-container sec3-plugin'>
               <img src={homeSec3Images.Intersect2} alt='intersect-2' className='intersect-2' />
               <p className='sec3-card-num'>02</p>
@@ -50,7 +50,7 @@ export default function Section3() {
               <img src={homeSec3Images.pluginSec3} alt='pluginSec3' className='pluginSec3' />
             </div>
           </div>
-          <div className='col-lg-4 col-sm-6 d-flex sec3-col'>
+          <div className='col-lg-4 col-md-4 d-flex sec3-col'>
             <div className='home-sec3-item-container sec3-diagnosis'>
               <img src={homeSec3Images.Intersect3} alt='intersect-3' className='intersect-3' />
               <p className='sec3-card-num'>03</p>
