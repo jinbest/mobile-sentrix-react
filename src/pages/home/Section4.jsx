@@ -1,6 +1,7 @@
 import React from 'react'
 import Section from '../../components/Section'
 import AssestImg from '../../img/assest-section4.png'
+import AssestImg2 from '../../img/assest-section4-2.png'
 
 export default function Section4() {
   return (
@@ -10,7 +11,8 @@ export default function Section4() {
       className='home-section-4'
     >
       <div className='row'>
-        <img src={AssestImg} alt='assest'/>
+        <img className='home-sec4-img-1' src={AssestImg} alt='assest1'/>
+        <img className='home-sec4-img-2' src={AssestImg2} alt='assest2'/>
       </div>
     </Section>
   )

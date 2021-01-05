@@ -27,7 +27,7 @@ export default function Section2() {
       <div className='container1'>
         <SectionTitle subtitle='Why Choose Us?' />
 
-        <div className='row d-flex home-section2-tab-container' style={{borderBottom: `3px solid ${featureItems[0].color.default}`}}>
+        <div className='row d-flex home-section2-tab-container' style={{borderBottom: `3px solid ${featureItems[0].color.default}`, position: 'relative'}}>
           {featureItems.map(({ title, color }, index) => (
             <div className='home-section2-tab' key={index}>
               <p                  

@@ -8,18 +8,8 @@ export default function Footer() {
   return (
     <footer className='footer'>
       <div className='container-header-footer'>
-        <div style={{display: 'flex'}}>
-          {/* <div className='col-md-3'>
-            <Logo type='footer'/>
-          </div>
-          <div className='col-md-4'>
-            <p className='text-1'>+1(202) 540-9946</p>
-            <p className='text-1'>sales@mobilesentrix.com</p>
-            <p className='text-1'>4315-D Walney Road, Chantily, Virginia 20151</p>
-            <p className='text-2'>Monday-Friday: 10 a.m. - 9 p.m. (est)</p>
-            <p className='text-2'>Saturday: 2 p.m. - 6 p.m. (est)</p>
-          </div> */}
-          <div style={{width: '60%'}}>
+        <div style={{display: 'flex', flexWrap: 'wrap'}}>
+          <div className='footer-left-container'>
             <div className='row'>
               <div className='col-lg-6'>
                 <Logo type='footer' />
@@ -33,8 +23,8 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div style={{width: '40%'}}>
-            <div className='row'  style={{marginTop: '70px'}}>
+          <div className='footer-right-container'>
+            <div className='row'>
               <div className='col-lg-6'>
                 {items.left.map(({ title, href }, index) => (
                   <a className='text-2' key={index} href={href}>{title}</a>

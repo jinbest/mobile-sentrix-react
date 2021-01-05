@@ -4,8 +4,8 @@ import SectionTitle from './SectionTitle'
 export default function Section({
   className = '',
   children,
-  title,
-  subtitle,
+  title='',
+  subtitle='',
   style,
 }) {
   return (
